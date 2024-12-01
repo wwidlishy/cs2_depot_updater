@@ -23,6 +23,13 @@ print("[...] Downloading (this may take a while)")
 for i in cmds:
     os.system(i)
 
+os.system('move "depots/2347770/16559327/game" "Counter-Strike Global Offensive"')
+os.system('move "depots/2347770/16559327/content" "Counter-Strike Global Offensive"')
+os.system('move "depots/2347771/16559327/game" "Counter-Strike Global Offensive"')
+os.system('move "depots/2347771/16559327/content" "Counter-Strike Global Offensive"')
+os.system('move "depots/2347770/16559327/content" "Counter-Strike Global Offensive"')
+os.system('move "depots/2347770/16559327/game" "Counter-Strike Global Offensive"')
+
 print("Downloaded!\n[...] Patching")
 
 api64_path = path + "\\game\\bin\\win64"
